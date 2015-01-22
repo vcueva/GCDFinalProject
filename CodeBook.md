@@ -11,7 +11,7 @@ Integer values from 1 to 30.
 		
 2. Activity (18)  
 Class labels for activities. Factor value.  
-	* WALKING  
+* WALKING  
 	* WALKING_UPSTAIRS  
 	* WALKING_DOWNSTAIRS  
 	* SITTING  
@@ -281,14 +281,14 @@ Measure columns have a real value range with:
   
 NOTE 2:  
 The variable names were composed using descriptive parts of the data being measured:  
-	* t: prefix 't' to denote time
-	* f: prefix 'f' to denote frequency
-	* Body: Body measure
-	* Gravity: Gravity measure
-	* Acc: measure from the Accelerometer
-	* Gyro: measure from the Gyroscope
-	* Jerk: Jerk Signals
-	* Mag: Magnitude measure  
+* t: prefix 't' to denote time
+* f: prefix 'f' to denote frequency
+* Body: Body measure
+* Gravity: Gravity measure
+* Acc: measure from the Accelerometer
+* Gyro: measure from the Gyroscope
+* Jerk: Jerk Signals
+* Mag: Magnitude measure  
   
 NOTE 3:  
 The final file created in this project was obtained modifying the dataset in:  
