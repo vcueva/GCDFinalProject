@@ -4,7 +4,7 @@ Student: Victor de la Cueva
 Date: January 20th, 2015
 
 The final file created in this project was obtained modifying the dataset in:
------------------------------------------------------------------------------------------------
+...........................................................................
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
@@ -17,7 +17,7 @@ A full description is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 The data was obtained from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
------------------------------------------------------------------------------------------------
+.............................................................................................
 The final file contains a independent tidy data set with the average of each variable for each activity and each subject.
 
 The columns are:
