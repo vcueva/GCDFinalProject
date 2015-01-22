@@ -6,7 +6,7 @@ Date: January 20th, 2015
 The output only was obtained for those variables with both: mean and standard deviation.
 Variables with only mean were excluded.  
 
-Following procedure was used to obtain the output file:
+Following procedure was used to obtain the output file:  
 
 1. Load the dplyr library
 

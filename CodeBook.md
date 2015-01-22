@@ -2,13 +2,13 @@
 Course Name: Getting and Cleaning Data  
 Student: Victor de la Cueva  
 Date: January 20th, 2015  
-
+  
 The columns are:  
 
 1. #####Subject (2)  
 Subject who performed the activity for each window sample.  
 Integer values from 1 to 30.  
-		
+
 2. #####Activity (18)  
 Class labels for activities. Factor value.  
 	* WALKING  
@@ -17,7 +17,7 @@ Class labels for activities. Factor value.
 	* SITTING  
 	* STANDING  
 	* LAYING  
-		
+
 3. #####tBodyAcc_mean_X  
 	Mean of mean values in time domain signals for Body Acceleration in X axe.  
 		Real number in g units  
@@ -242,35 +242,43 @@ Class labels for activities. Factor value.
 	Mean of standard deviation values in frequency domain signals for Body Angular Velocity in X axe.  
 		Real number in radians/second  
 
-59. #####fBodyAccMag_mean  
+59. #####fBodyGyro_std_Y  
+	Mean of standard deviation values in frequency domain signals for Body Angular Velocity in Y axe.  
+		Real number in radians/second  
+  
+60. #####fBodyGyro_std_Z  
+	Mean of standard deviation values in frequency domain signals for Body Angular Velocity in Z axe.  
+		Real number in radians/second  
+
+61. #####fBodyAccMag_mean  
 	Mean of mean values in frequency domain signals for total Body Acceleration Magnitude.  
 		Real number in g units  
 
-60. #####fBodyAccMag_std  
+62. #####fBodyAccMag_std  
 	Mean of standard deviation values in frequency domain signals for total Body Acceleration Magnitude.  
 		Real number in g units  
 
-61. #####fBodyBodyAccJerkMag_mean  
+63. #####fBodyBodyAccJerkMag_mean  
 	Mean of mean values in time domain signals for total Body to Body Acceleration Jerk Magnitude.  
 		Real number in g units  
 
-62. #####fBodyBodyAccJerkMag_std  
+64. #####fBodyBodyAccJerkMag_std  
 	Mean of standard deviation values in time domain signals for total Body to Body Acceleration Jerk Magnitude.  
 		Real number in g units  
 
-63. #####fBodyBodyGyroMag_mean  
+65. #####fBodyBodyGyroMag_mean  
 	Mean of mean values in time domain signals for total Body to Body Angular Velocity Magnitude.  
 		Real number in radians/second  
 
-64. #####fBodyBodyGyroMag_std  
+66. #####fBodyBodyGyroMag_std  
 	Mean of standard deviation values in time domain signals for total Body to Body Angular Velocity Magnitude.  
 		Real number in radians/second  
 
-65. #####fBodyBodyGyroJerkMag_mean  
+67. #####fBodyBodyGyroJerkMag_mean  
 	Mean of mean values in time domain signals for total Body to Body Angular Velocity Jerk Magnitude.  
 		Real number in radians/second  
 		
-66. #####fBodyBodyGyroJerkMag_std  
+68. #####fBodyBodyGyroJerkMag_std  
 	Mean of standard deviation values in time domain signals for total Body to Body Angular Velocity Jerk Magnitude.  
 		Real number in radians/second  
 
