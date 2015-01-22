@@ -281,7 +281,7 @@ Measure columns have a real value range with:
   
 NOTE 2:  
 The variable names were composed using descriptive parts of the data being measured:  
-  * t: prefix 't' to denote time
+	* t: prefix 't' to denote time
 	* f: prefix 'f' to denote frequency
 	* Body: Body measure
 	* Gravity: Gravity measure
@@ -295,17 +295,14 @@ The final file created in this project was obtained modifying the dataset in:
   
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0  
-  
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.  
 Smartlab - Non Linear Complex Systems Laboratory  
 DITEN - UniversitÃ  degli Studi di Genova.  
 Via Opera Pia 11A, I-16145, Genoa, Italy.  
 activityrecognition@smartlab.ws  
 www.smartlab.ws  
-  
 A full description is available at the site where the data was obtained:  
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones  
-  
 The data was obtained from:  
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 
