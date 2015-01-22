@@ -28,8 +28,8 @@ The final file contains a independent tidy data set with the average of each var
 The columns are:
 
 Subject       2
-       Subject who performed the activity for each window sample.
-		Integer values from 1 to 30.
+Subject who performed the activity for each window sample.
+Integer values from 1 to 30.
 		
 2. Activity		18
 	Class labels for activities. Factor value.
