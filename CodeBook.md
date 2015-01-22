@@ -17,7 +17,7 @@ activityrecognition@smartlab.ws
 www.smartlab.ws
 =======================================================================================
 A full description is available at the site where the data was obtained: 
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 =======================================================================================
 The data was obtained from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -27,7 +27,7 @@ The final file contains a independent tidy data set with the average of each var
 
 The columns are:
 
-1. Subject		2
+Subject		2
 	Subject who performed the activity for each window sample.
 		Integer values from 1 to 30.
 		
