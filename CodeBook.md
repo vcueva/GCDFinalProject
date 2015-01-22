@@ -1,7 +1,7 @@
 ## DATA DICTIONARY - Final Project
-### Course Name: Getting and Cleaning Data
-### Student: Victor de la Cueva
-### Date: January 20th, 2015
+Course Name: Getting and Cleaning Data
+Student: Victor de la Cueva
+Date: January 20th, 2015
 
 The final file created in this project was obtained modifying the dataset in:
 
@@ -17,7 +17,7 @@ activityrecognition@smartlab.ws
 www.smartlab.ws
 =======================================================================================
 A full description is available at the site where the data was obtained: 
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+### http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 =======================================================================================
 The data was obtained from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
