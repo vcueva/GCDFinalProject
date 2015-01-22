@@ -5,20 +5,20 @@ Date: January 20th, 2015
 
 The columns are:  
 
-1. Subject (2)  
+1. #####Subject (2)  
 Subject who performed the activity for each window sample.  
 Integer values from 1 to 30.  
 		
-2. Activity (18)  
+2. ####Activity (18)  
 Class labels for activities. Factor value.  
-* WALKING  
+	* WALKING  
 	* WALKING_UPSTAIRS  
 	* WALKING_DOWNSTAIRS  
 	* SITTING  
 	* STANDING  
 	* LAYING  
 		
-3. tBodyAcc_mean_X  
+3. ###tBodyAcc_mean_X  
 	Mean of mean values in time domain signals for Body Acceleration in X axe.  
 		Real number in g units  
 
@@ -274,12 +274,12 @@ Class labels for activities. Factor value.
 	Mean of standard deviation values in time domain signals for total Body to Body Angular Velocity Jerk Magnitude.  
 		Real number in radians/second  
 
-NOTE 1:  
+####NOTE 1:  
 Measure columns have a real value range with:  
 * Acceleration (from accelerometer) in standard gravity units 'g' (a g unit is the acceleration for gravity acceleration).  
 * Angular velocity (from gyroscope) in radians/second.  
   
-NOTE 2:  
+####NOTE 2:  
 The variable names were composed using descriptive parts of the data being measured:  
 * t: prefix 't' to denote time
 * f: prefix 'f' to denote frequency
@@ -290,7 +290,7 @@ The variable names were composed using descriptive parts of the data being measu
 * Jerk: Jerk Signals
 * Mag: Magnitude measure  
   
-NOTE 3:  
+####NOTE 3:  
 The final file created in this project was obtained modifying the dataset in:  
   
 Human Activity Recognition Using Smartphones Dataset
