@@ -1,10 +1,10 @@
-## Steps to obtain the output - Final Project
-### Course Name: Getting and Cleaning Data
-### Student: Victor de la Cueva
-### Date: January 20th, 2015
+## Steps to obtain the output - Final Project  
+Course Name: Getting and Cleaning Data  
+Student: Victor de la Cueva  
+Date: January 20th, 2015  
 
 The output only was obtained for those variables with both: mean and standard deviation.
-Variables with only mean were excluded.
+Variables with only mean were excluded.  
 
 Following procedure was used to obtain the output file:
 
@@ -16,24 +16,24 @@ Following procedure was used to obtain the output file:
 
 4. Load the activity name file "activity_labels.txt"
 
-5. Load test data
-	5.1 Load the subject id file "subject_test.txt"
-	5.2 Load the activities id file "y_test.txt"
-	5.3 Load test data file "X_test.txt"
+5. Load test data  
+	5.1 Load the subject id file "subject_test.txt"  
+	5.2 Load the activities id file "y_test.txt"  
+	5.3 Load test data file "X_test.txt"  
 
-6. Appropriately label the test data set with descriptive variable names.
+6. Appropriately label the test data set with descriptive variable names.  
 	6.1 Change the name of columns using features in "features.txt" file
 
 7. Add the subject column to test data
 
 8. Add the activity column to test data
 
-9. Load training data
-	9.1 Load the subject id file "subject_train.txt"
-	9.2 Load the activities id file "y_train.txt"
-	9.3 Load test data file "X_train.txt"
+9. Load training data  
+	9.1 Load the subject id file "subject_train.txt"  
+	9.2 Load the activities id file "y_train.txt"  
+	9.3 Load test data file "X_train.txt"  
 
-10. Appropriately label the train data set with descriptive variable names.
+10. Appropriately label the train data set with descriptive variable names.  
 	10.1 Change the name of columns using features in "features.txt" file
 
 11. Add the subject column to test data
