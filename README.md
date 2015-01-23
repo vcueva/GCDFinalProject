@@ -43,6 +43,8 @@ Following procedure was used to obtain the output file:
 13. Put together both data sets (Test and Train) in one ("dataAll")
 
 14. Extract the measurements on the mean and standard deviation for each measurement.
+	14.1 Extract from the names of columns in "dataAll" the position of those containing "mean" or "std" strings
+	14.2 Add columns for Subject and Activity
 
 15. Put descriptive activity names to name the activities in the data set
 

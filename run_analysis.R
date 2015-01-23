@@ -42,14 +42,15 @@ dataTrain$Activity <- activityTrain$Activity
 dataAll <- rbind(dataTrain,dataTest)
 
 ## Extract the measurements on the mean and standard deviation for each measurement.
-dataMeanStd <- dataAll[,c(562,563,1:6,41:46,81:86,121:126,161:166,201:202,214:215,227:228,240:241,253:254,266:271,345:350,424:429,503:504,516:517,529:530,542:543)]
+columnsToAdd <- append(c(562,563), grep("mean|std",names(dataAll)))
+dataMeanStd <- dataAll[,columnsToAdd]
 
 ## Put descriptive activity names to name the activities in the data set
 dataMeanStd[,2] <- activities[dataMeanStd[,2],2]
 
 ## From the data set obtaining in last step ("dataMeanStd"), create a second, independent tidy data set
 ## with the average of each variable for each activity and each subjec
-dataFinal <- summarise_each(group_by(dataMeanStd,Subject,Activity),funs(mean),tBodyAcc_mean_X:fBodyBodyGyroJerkMag_std)
+dataFinal <- summarise_each(group_by(dataMeanStd,Subject,Activity),funs(mean),tBodyAcc_mean_X:fBodyBodyGyroJerkMag_meanFreq)
 
 ## Write the final summarizing table to a file "dataStep5.txt"
 write.table(dataFinal, file = "dataStep5.txt", row.name = FALSE)

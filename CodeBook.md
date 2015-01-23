@@ -130,7 +130,7 @@ Class labels for activities. Factor value.
 	Mean of standard deviation values in time domain signals for Body Angular Velocity Jerk signals in X axe.  
 		Real numbers in radians/second  
 
-31. #####tBodyGyroJerk_std_Y
+31. #####tBodyGyroJerk_std_Y  
 	Mean of standard deviation values in time domain signals for Body Angular Velocity Jerk signals in Y axe.  
 		Real numbers in radians/second  
 
@@ -202,84 +202,136 @@ Class labels for activities. Factor value.
 	Mean of standard deviation values in frequency domain signals for Body Acceleration in Z axe.  
 		Real number in g units  
 		
-49. #####fBodyAccJerk_mean_X  
+49. #####fBodyAcc_meanFreq_X  
+	Mean of weighted average values of the frequency components in frequency domain signals for Body Acceleration in X axe.  
+		Real number in g units  
+
+50. #####fBodyAcc_meanFreq_Y  
+	Mean of weighted average values of the frequency components in frequency domain signals for Body Acceleration in Y axe.  
+		Real number in g units  
+
+51. #####fBodyAcc_meanFreq_Z  
+	Mean of weighted average values of the frequency components in frequency domain signals for Body Acceleration in Z axe.  
+		Real number in g units  
+
+52. #####fBodyAccJerk_mean_X  
 	Mean of mean values in frequency domain signals for Body Acceleration Jerk signals in X axe.  
 		Real number in g units  
 
-50. #####fBodyAccJerk_mean_Y  
+53. #####fBodyAccJerk_mean_Y  
 	Mean of mean values in frequency domain signals for Body Acceleration Jerk signals in Y axe.  
 		Real number in g units  
 
-51. #####fBodyAccJerk_mean_Z  
+54. #####fBodyAccJerk_mean_Z  
 	Mean of mean values in frequency domain signals for Body Acceleration Jerk signals in Z axe.  
 		Real number in g units  
 
-52. #####fBodyAccJerk_std_X  
+55. #####fBodyAccJerk_std_X  
 	Mean of standard deviation values in frequency domain signals for Body Acceleration Jerk signals in X axe.  
 		Real number in g units  
 
-53. #####fBodyAccJerk_std_Y  
+56. #####fBodyAccJerk_std_Y  
 	Mean of standard deviation values in frequency domain signals for Body Acceleration Jerk signals in Y axe.  
 		Real number in g units  
 
-54. #####fBodyAccJerk_std_Z  
+57. #####fBodyAccJerk_std_Z  
 	Mean of standard deviation values in frequency domain signals for Body Acceleration Jerk signals in Z axe.  
 		Real number in g units  
 
-55. #####fBodyGyro_mean_X  
+58. #####fBodyAccJerk_meanFreq_X  
+	Mean of weighted average values of the frequency components in frequency domain signals for Body Acceleration Jerk signals in X axe.  
+		Real number in g units  
+
+59. #####fBodyAccJerk_meanFreq_Y  
+	Mean of weighted average values of the frequency components in frequency domain signals for Body Acceleration Jerk signals in Y axe.  
+		Real number in g units  
+
+60. #####fBodyAccJerk_meanFreq_Z  
+	Mean of weighted average values of the frequency components in frequency domain signals for Body Acceleration Jerk signals in Z axe.  
+		Real number in g units  
+
+61. #####fBodyGyro_mean_X  
 	Mean of mean values in frequency domain signals for Body Angular Velocity in X axe.  
 		Real number in radians/second  
 
-56. #####fBodyGyro_mean_Y  
+62. #####fBodyGyro_mean_Y  
 	Mean of mean values in frequency domain signals for Body Angular Velocity in Y axe.  
 		Real number in radians/second  
 
-57. #####fBodyGyro_mean_Z  
+63. #####fBodyGyro_mean_Z  
 	Mean of mean values in frequency domain signals for Body Angular Velocity in Z axe.  
 		Real number in radians/second  
 
-58. #####fBodyGyro_std_X  
+64. #####fBodyGyro_std_X  
 	Mean of standard deviation values in frequency domain signals for Body Angular Velocity in X axe.  
 		Real number in radians/second  
 
-59. #####fBodyGyro_std_Y  
+65. #####fBodyGyro_std_Y  
 	Mean of standard deviation values in frequency domain signals for Body Angular Velocity in Y axe.  
 		Real number in radians/second  
   
-60. #####fBodyGyro_std_Z  
+66. #####fBodyGyro_std_Z  
 	Mean of standard deviation values in frequency domain signals for Body Angular Velocity in Z axe.  
 		Real number in radians/second  
 
-61. #####fBodyAccMag_mean  
+67. #####fBodyGyro_meanFreq_X  
+	Mean of weighted average of the frequency components values in frequency domain signals for Body Angular Velocity in X axe.  
+		Real number in radians/second  
+
+68. #####fBodyGyro_meanFreq_Y  
+	Mean of weighted average of the frequency components values in frequency domain signals for Body Angular Velocity in Y axe.  
+		Real number in radians/second  
+
+69. #####fBodyGyro_meanFreq_Z  
+	Mean of weighted average of the frequency components values in frequency domain signals for Body Angular Velocity in Z axe.  
+		Real number in radians/second  
+		
+70. #####fBodyAccMag_mean  
 	Mean of mean values in frequency domain signals for total Body Acceleration Magnitude.  
 		Real number in g units  
 
-62. #####fBodyAccMag_std  
+71. #####fBodyAccMag_std  
 	Mean of standard deviation values in frequency domain signals for total Body Acceleration Magnitude.  
 		Real number in g units  
 
-63. #####fBodyBodyAccJerkMag_mean  
+72. #####fBodyAccMag_meanFreq  
+	Mean of weighted average of the frequency components values in frequency domain signals for total Body Acceleration Magnitude.  
+		Real number in g units  
+		
+73. #####fBodyBodyAccJerkMag_mean  
 	Mean of mean values in time domain signals for total Body to Body Acceleration Jerk Magnitude.  
 		Real number in g units  
 
-64. #####fBodyBodyAccJerkMag_std  
+74. #####fBodyBodyAccJerkMag_std  
 	Mean of standard deviation values in time domain signals for total Body to Body Acceleration Jerk Magnitude.  
 		Real number in g units  
 
-65. #####fBodyBodyGyroMag_mean  
+75. #####fBodyBodyAccJerkMag_meanFreq  
+	Mean of weighted average of the frequency components values in time domain signals for total Body to Body Acceleration Jerk Magnitude.  
+		Real number in g units  
+
+76. #####fBodyBodyGyroMag_mean  
 	Mean of mean values in time domain signals for total Body to Body Angular Velocity Magnitude.  
 		Real number in radians/second  
 
-66. #####fBodyBodyGyroMag_std  
+77. #####fBodyBodyGyroMag_std  
 	Mean of standard deviation values in time domain signals for total Body to Body Angular Velocity Magnitude.  
 		Real number in radians/second  
 
-67. #####fBodyBodyGyroJerkMag_mean  
+78. #####fBodyBodyGyroMag_meanFreq  
+	Mean of weighted average of the frequency components values in time domain signals for total Body to Body Angular Velocity Magnitude.  
+		Real number in radians/second  
+
+79. #####fBodyBodyGyroJerkMag_mean  
 	Mean of mean values in time domain signals for total Body to Body Angular Velocity Jerk Magnitude.  
 		Real number in radians/second  
 		
-68. #####fBodyBodyGyroJerkMag_std  
+80. #####fBodyBodyGyroJerkMag_std  
 	Mean of standard deviation values in time domain signals for total Body to Body Angular Velocity Jerk Magnitude.  
+		Real number in radians/second  
+
+81. #####fBodyBodyGyroJerkMag_meanFreq  
+	Mean of weighted average of the frequency components values in time domain signals for total Body to Body Angular Velocity Jerk Magnitude.  
 		Real number in radians/second  
 
 ####NOTE 1:  
